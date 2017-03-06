@@ -3,12 +3,7 @@ GEM
   specs:
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
-    coffee-script (2.4.1)
-      coffee-script-source
-      execjs
-    coffee-script-source (1.11.1)
     colorator (1.1.0)
-    execjs (2.7.0)
     ffi (1.9.17)
     forwardable-extended (2.6.0)
     jekyll (3.4.0)
@@ -22,14 +17,9 @@ GEM
       pathutil (~> 0.9)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
-    jekyll-coffeescript (1.0.2)
-      coffee-script (~> 2.2)
-      coffee-script-source (~> 1.11.1)
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
-    jekyll-sitemap (1.0.0)
-      jekyll (~> 3.3)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
     kramdown (1.13.2)
@@ -52,11 +42,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll
-  jekyll-coffeescript
+  jekyll (= 3.4.0)
   jekyll-paginate
-  jekyll-sitemap
-  jekyll-watch
 
 BUNDLED WITH
    1.14.5

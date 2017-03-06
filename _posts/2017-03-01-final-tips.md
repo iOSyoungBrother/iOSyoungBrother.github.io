@@ -1,6 +1,7 @@
 ---
 layout: post
 title: final Markdown learn
+category: Live
 ---
 
 some little tips

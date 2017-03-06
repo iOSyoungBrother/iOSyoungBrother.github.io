@@ -1,39 +1,31 @@
+
 # Site settings
-title: iOSyoungBrother'blog
-description: "live and learn"
-url: "https://iOSyoungBrother.github.io"
-author:
-  name: "iOSyoungBrother"
-  email: "zch3335@163.com"
-  url: "https://iOSyoungBrother.github.io"
+title: iOSyoungBrother
+email: 571682004@qq.com
+description: > # this means to ignore newlines until "baseurl:"
+  求知若渴，虚心若愚。
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://iOSyoungBrother.github.io" # the base hostname & protocol for your site
+
+# User setting
+owner:
+email:
+facebook_username:
+twitter_username:
+github_username:
+address:
+  - line:
+  - line:
+  # Feel free to add more lines here 
+telephone:
+copyright:
+
+# API settings
+google_api_key:
 
 # Build settings
-baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
+gems: [jekyll-paginate]
+
 markdown: kramdown
-source: .
-destination: ./_site
-permalink: /:title
-paginate: 8
-paginate_path: /page:num/
+# toc_levels: 1..2
 
-# Default values
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-
-# Plugins
-gems:
-  - jekyll-paginate
-  - jekyll-sitemap
-
-# Custom variables
-version: "1.0.0"
-
-# Options
-custom_header: false
-custom_nav_footer: false
-reverse: false

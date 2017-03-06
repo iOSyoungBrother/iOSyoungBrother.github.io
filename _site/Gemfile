@@ -1,10 +1,8 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem 'jekyll'
+gem 'jekyll', '3.4.0'
 
 group :jekyll_plugins do
-   gem "jekyll-coffeescript"
-   gem "jekyll-watch"
-   gem "jekyll-paginate"
-   gem "jekyll-sitemap"
- end
+  gem 'jekyll-paginate'
+
+end
